@@ -7,4 +7,9 @@ spec:
   selector:
     matchLabels:
       component: web
+  template:
+    metadata:
+      label:
+        component: web
+    
       
